@@ -20,7 +20,7 @@ collections:
           label: "Layout",
           name: "layout",
           widget: "hidden",
-          default: "../../layouts/BlogPost",
+          default: "../../src/layouts/BlogPost",
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
