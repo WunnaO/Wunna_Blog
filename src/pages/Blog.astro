@@ -45,7 +45,7 @@ console.log(posts[0].frontmatter);
             posts &&
               posts.map((post) => (
                 <li>
-                  <FormattedDate frontmatter={post.frontmatter.pubDate} />
+                  <FormattedDate date={post.frontmatter.pubDate} />
                   <a href={`${post.url}`}>{post.frontmatter.title}</a>
                 </li>
               ))
